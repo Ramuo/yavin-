@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.png" />
+
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+	  <script src="js/script.js" defer></script>
+    <title>Yavin Office Design</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img src="images/logo.svg" alt="logo" width="124">
+        </a>
+        <button class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle Navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="navbar-item">
+              <a href="#details" class="nav-link">Détails</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="navbar-item">
+              <a 
+              class="nav-link btn btn-outline-secondary px-4 mx-4"
+              href="#contact"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header position-relative mt-6 overflow-hidden">
+      <img 
+      src="images/decoration-star.svg" 
+      alt="" class="decoration-star position-absolute"
+      />
+      <img 
+      src="images/decoration-star.svg" 
+      alt="" class="decoration-star-2 position-absolute"
+      />
+      <div class="container position-relative z-3">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="mt-6">
+              <h1 class="xl-text">
+                Le <span class="text-primary">Bureau</span> Parfait
+              </h1>
+              <p class="lead mb-3">
+                Nous nous spécialisons dans la transformation d'espaces de bureau en espaces inspirants et
+                environnements fonctionnels. Laissez-nous donner vie à votre vision.
+              </p>
+              <a href="#introduction" class="btn btn-primary btn-lg m-2">
+                Plus de détails
+              </a>
+              <a href="#contact" class="btn btn-outline-secondary btn-lg m-2">
+               Contact
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="image-container">
+              <img 
+              src="images/header.png" 
+              alt="" 
+              class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Stats -->
+    <section id="stats" class="stats container">
+      <div class="row my-6">
+        <div class="col-md-3 col-sm-6 text-center">
+          <h2 class="counter xl-text" data-target="328"></h2>
+          <p>Clients Heureux</p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <h2 class="counter  xl-text" data-target="285"></h2>
+          <p>Problèmes Résolus</p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <h2 class="counter  xl-text" data-target="159"></h2>
+          <p>Avis Positifs</p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <h2 class="counter  xl-text" data-target="128"></h2>
+          <p>Cas d'étude</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Introduction -->
+    <section id="introduction" class="intro bg-light py-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-2 text-center">
+            <h2>
+              Créer des <span class="text-secondary">Espaces de Bureau</span> Inspirants
+            </h2>
+            <p class="fs-5">
+              Chez nous, concevoir des espaces de bureaux est notre passion. Nous prenons
+              fierté de nos projets achevés qui reflètent notre dévouement et
+              expertise dans la création d'œuvres fonctionnelles et esthétiques
+              environnements.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- details 1 -->
+    <section
+      id="details"
+      class="details position-relative my-6 overflow-hidden"
+    >
+      <img
+        src="images/decoration-star.svg"
+        alt=""
+        class="decoration-star position-absolute"
+      />
+      <div class="container position-relative z-3">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="image-container d-flex justify-content-center">
+              <img src="images/details-1.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="mt-4">
+              <h2 class="mb-4">
+                Créer un <span class="text-primary">Bureau</span> Unique
+              </h2>
+              <ul class="list-unstyled">
+                <li class="d-flex mb-3">
+                  <i class="fas fa-check text-primary fa-2x mx-4"></i>
+                  <p>
+                    Notre approche garantit que chaque espace de bureau est adapté à
+                    les besoins et les préférences uniques de nos clients. Pas deux
+                    les espaces se ressemblent.
+                  </p>
+                </li>
+                <li class="d-flex mb-3">
+                  <i class="fas fa-check text-primary fa-2x mx-4"></i>
+                  <p>
+                    We pay attention to every detail, ensuring that the design
+                    elements, furniture, and decor create a harmonious and
+                    inspiring atmosphere.
+                  </p>
+                </li>
+                <li class="d-flex mb-3">
+                  <i class="fas fa-check text-primary fa-2x mx-4"></i>
+                  <p>
+                    Nous prêtons attention à chaque détail, en veillant à ce que la conception
+                    éléments, mobilier et décor créent un ensemble harmonieux et
+                    ambiance inspirante.
+                  </p>
+                </li>
+                <li class="d-flex mb-3">
+                  <i class="fas fa-check text-primary fa-2x mx-4"></i>
+                  <p>
+                    L'existence telle qu'est le discours. Plaisir amical au mariage
+                    bénédiction ou devrait
+                  </p>
+                </li>
+              </ul>
+              <a href="article.html" class="btn btn-primary">Commencer</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class=" services bg-light py-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="text-container text-center text-lg-start">
+              <h2>
+                <span class="text-secondary">Nos Offres</span> de Services
+              </h2>
+              <p>
+                  Dans notre entreprise, nous fournissons une large gamme de services pour répondre à tous
+                  vos besoins en matière d'aménagement de bureau. Grâce à notre expertise et à notre attention
+                  détail, nous nous assurons que chaque aspect de votre espace de bureau est
+                  soigneusement étudié et exécuté.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="row mb-4">
+              <div class="col-md-4 d-flex flex-column align-items-center text-center">
+                <i class="fas fa-rocket fa-4x text-secondary mb-2"></i>
+                <p class="fs-5 fw-bold">Analyse et planification de l'espace</p>
+              </div>
+  
+              <div class="col-md-4 d-flex flex-column align-items-center text-center">
+                <i class="fas fa-clock fa-4x text-secondary mb-2"></i>
+                <p class="fs-5 fw-bold">Design & Color Choosing</p>
+              </div>
+  
+              <div class="col-md-4 d-flex flex-column align-items-center text-center">
+                <i class="fas fa-comments fa-4x text-secondary mb-2"></i>
+                <p class="fs-5 fw-bold">Matériaux et livraison</p>
+              </div>
+  
+              <div class="col-md-4 d-flex flex-column align-items-center text-center">
+                <i class="fas fa-tools fa-4x text-secondary mb-2"></i>
+                <p class="fs-5 fw-bold">Exécuter le concept</p>
+              </div>
+  
+              <div class="col-md-4 d-flex flex-column align-items-center text-center">
+                <i class="fas fa-chart-pie fa-4x text-secondary mb-2"></i>
+                <p class="fs-5 fw-bold">Créer une bonne ambiance</p>
+              </div>
+  
+              <div class="col-md-4 d-flex flex-column align-items-center text-center">
+                <i class="fas fa-chart-bar fa-4x text-secondary mb-2"></i>
+                <p class="fs-5 fw-bold">Évaluation et rapports</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Details 2 -->
+    <section class="details-2 position-relative my-6 overflow-hidden">
+      <img
+        src="images/decoration-star.svg"
+        alt=""
+        class="decoration-star position-absolute"
+      />
+      <div class="container position-relative z-3">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="text-container text-center text-lg-start mb-4">
+              <h2>
+                Transformez votre espace de travail pour améliorer
+                <span class="text-primary">Production</span>
+              </h2>
+              <p>
+                Un espace de bureau bien conçu et bien organisé a un
+                impact profond sur la productivité et la satisfaction des employés. Il
+                prépare le terrain pour une collaboration transparente, des flux de travail efficaces,
+                et l'inspiration créative. Dans notre entreprise, nous sommes spécialisés dans
+                créer des environnements de bureau sur mesure qui maximisent la productivité
+                et d'améliorer l'expérience de travail globale.
+              </p>
+              <a href="article.html" class="btn btn-primary">Commencer</a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="image-container d-flex justify-content-center">
+              <img src="images/details-2.png" alt="" class="iimg-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- Get Quote -->
+      <section class="get-quote bg-light py-6 text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+              <h4 class="lh-base">
+                Notre équipe de designers hautement qualifiés et de construction d'intérieur
+                les travailleurs peuvent livrer au-dessus de vos attentes
+              </h4>
+              <a href="#contact" class="btn btn-secondary btn-lg">Demarrer</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="projects py-6">
+        <div class="container">
+          <h2 class="text-center pb-4">
+            Certains de Mes <span class="text-secondary">Projets</span>
+          </h2>
+          <!-- Projects Row 1 -->
+          <div class="row mb-4">
+            <div class="col-md-4">
+              <div class="card border-0">
+                <img src="images/project-1.jpg" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Espace Bureau pour la Banque</h5>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, sit!
+                    <a href="article.html">En savoir plus</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card border-0">
+                <img src="images/project-2.jpg" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Planification et conception</h5>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, sit!
+                    <a href="article.html">En savoir plus</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card border-0">
+                <img src="images/project-3.jpg" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Mise à jour des matériaux</h5>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, sit!
+                    <a href="article.html">En savoir plus</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+           <!-- Projects Row 2 -->
+           <div class="row mb-4">
+            <div class="col-md-4">
+              <div class="card border-0">
+                <img src="images/project-4.jpg" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Analyse et conception de plancher</h5>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, sit!
+                    <a href="article.html">En savoir plus</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card border-0">
+                <img src="images/project-5.jpg" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Decoration Bureau</h5>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, sit!
+                    <a href="article.html">En savoir plus</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card border-0">
+                <img src="images/project-6.jpg" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Aire de jeux pour enfant</h5>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, sit!
+                    <a href="article.html">En savoir plus</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section id="testimonials" class="testimonials bg-light py-6">
+        <div id="testimonialsCarousel" class="carousel slide">
+          <div class="carousel-inner">
+            <!-- Slider 1 -->
+            <div class="carousel-item active">
+              <div class="d-flex flex-column justify-content-center align-items-center text-center">
+                <img 
+                src="images/testimonial-1.jpg" 
+                alt="" 
+                class="rounded-circle"
+                />
+                <p class="w-50 my-4 fst-italic fs-4 mb-4">
+                  «Dépense lit n'importe quelle soeur dépend du changeur piqué un. Content
+                  a continué tout bonheur instantanément objection encore son allocation.
+                  Utilisez le nouveau jour correct apporté fastidieux. Par venir ce été. Gardé
+                  facile ou fils mon ça que diriez-vous de quelques mots ici fait »
+                </p>
+                <div class="fw-bold fs-5 mt-4">Mariane Grel</div>
+                <div>Responsable Gestion</div>
+              </div>
+            </div>
+            <!-- Slider 2 -->
+            <div class="carousel-item">
+              <div class="d-flex flex-column justify-content-center align-items-center text-center">
+                <img 
+                src="images/testimonial-2.jpg" 
+                alt="" 
+                class="rounded-circle"
+                />
+                <p class="w-50 my-4 fst-italic fs-4 mb-4">
+                  «Dépense lit n'importe quelle soeur dépend du changeur piqué un. Content
+                  a continué tout bonheur instantanément objection encore son allocation.
+                  Utilisez le nouveau jour correct apporté fastidieux. Par venir ce été. Gardé
+                  facile ou fils mon ça que diriez-vous de quelques mots ici fait »
+                </p>
+                <div class="fw-bold fs-5 mt-4">James Fisher</div>
+                <div>Web Disigner</div>
+              </div>
+            </div>
+
+            <!-- Slider 3 -->
+            <div class="carousel-item">
+              <div class="d-flex flex-column justify-content-center align-items-center text-center">
+                <img 
+                src="images/testimonial-3.jpg" 
+                alt="" 
+                class="rounded-circle"
+                />
+                <p class="w-50 my-4 fst-italic fs-4 mb-4">
+                  «Dépense lit n'importe quelle soeur dépend du changeur piqué un. Content
+                  a continué tout bonheur instantanément objection encore son allocation.
+                  Utilisez le nouveau jour correct apporté fastidieux. Par venir ce été. Gardé
+                  facile ou fils mon ça que diriez-vous de quelques mots ici fait »
+                </p>
+                <div class="fw-bold fs-5 mt-4">Martin Vera</div>
+                <div>DevOps</div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonialsCarousel"
+          data-bs-slide="prev"
+          >
+            <i class="fas fa-arrow-circle-left fa-3x text-secondary"></i>
+          </button>
+          <button class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonialsCarousel"
+          data-bs-slide="next"
+          >
+            <i class="fas fa-arrow-circle-right fa-3x text-secondary"></i>
+          </button>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="contact my-6 position-relative">
+        <img 
+        src="images/decoration-star.svg" 
+        alt="" 
+        class="decoration-star position-absolute"
+        />
+        
+        <div class="container position-relative z-3">
+          <div class="row">
+            <div class="col-lg-6 d-none d-md-block">
+              <div class="image-container">
+                <img src="images/contact.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="text-container">
+                <h2>Nous Contacter</h2>
+  
+                <form>
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Non"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="E-email"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Enter phone"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <textarea
+                      class="form-control"
+                      placeholder="Message"
+                      rows="8"
+                    ></textarea>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <input
+                      type="submit"
+                      value="Envoyer"
+                      class="btn btn-primary btn-block"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer bg-light py-6">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 my-3">
+              <h6>A Propos de Yavin</h6>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Molestiae, possimus! Similique asperiores aliquid accusantium
+                laudantium.
+              </p>
+            </div>
+            <div class="col-md-4 my-3">
+              <h6>Liens</h6>
+              <ul class="list-unstyled">
+                <li>
+                  Important: <a href="#">Termes & Conditions</a>,
+                  <a href="#">Politique de confidentialité</a>
+                </li>
+                <li>
+                  Utile: <a href="#">Bibliothèque d'Icone</a>,
+                  <a href="#">Illustrations</a>
+                </li>
+                <li>
+                  Menu: <a href="#">Accueil</a>, <a href="#details">Détails</a>,
+                  <a href="#services">Services</a>, <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4 my-3">
+              <div class="mb-4">
+                <a href="#" class="text-decoration-none">
+                  <i class="fab fa-facebook fa-3x text-dark mx-2"></i>
+                </a>
+                <a href="#" class="text-decoration-none">
+                  <i class="fab fa-twitter fa-3x text-dark mx-2"></i>
+                </a>
+                <a href="#" class="text-decoration-none">
+                  <i class="fab fa-instagram fa-3x text-dark mx-2"></i>
+                </a>
+                <a href="#" class="text-decoration-none">
+                  <i class="fab fa-pinterest fa-3x text-dark mx-2"></i>
+                </a>
+              </div>
+              <p>
+                Nous aimerions avoir de vos nouvelles
+                <a href="mailto:contact@site.com"
+                  ><strong>contact@site.com</strong></a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Button -->
+      <button id="to-top" class="to-top-btn">
+        <img src="images/up-arrow.png" alt=""/>
+      </button>
+  </body>
+</html>
